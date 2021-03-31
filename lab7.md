@@ -17,7 +17,7 @@
 ![alt text](https://cdn.discordapp.com/attachments/823124660014940180/826833709981237278/1.jpg)
 3. ประกอบบอร์ดใส่กล่องและอัพโหลดโค้ดลงในบอร์ด
 โดยภาษาที่เขียนโค้ดคือ ภาษา C ชุดคำสั่งมีดังนี้
-...
+'''
 # include <ESP8266WiFi.h>
 const char* ssid = "AndroidAP";
 const char* password = "12345678";
@@ -95,7 +95,7 @@ delay(1);
 Serial.println("Client disonnected");
 Serial.println("");
 }
-...
+'''
 4. จากนั้นเปิด Serial Monitor(รูปแว่นขยาย)ที่มุมขวาบน จากนั้นตั้งค่า Monitor รอสักครู่จะได้ URL
 5. นำ URL ที่ได้ไปใส่ที่ Web Browser จากการทดลองนี้จะได้ http://192.168.43.10/ ซึ่งจะได้ผลลัพธ์ดังนี้
 ![alt text](https://cdn.discordapp.com/attachments/823124660014940180/826835486604656640/2.jpg)
